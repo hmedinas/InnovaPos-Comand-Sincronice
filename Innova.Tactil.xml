@@ -1,0 +1,3311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Innova.Tactil</name>
+    </assembly>
+    <members>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterFacebook.Post(Innova.Tactil.InnovaPosWebAPI.Models.UserInfoDTO)">
+            <summary>
+            Registers new user with the provided credentials. - /registerFacebook
+            </summary>
+            <param name="userinfodto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterFacebook.Post(Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Registers new user with the provided credentials. - /registerFacebook
+            </summary>
+            <param name="request">Models.RegisterFacebookPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterGoogle.Post(Innova.Tactil.InnovaPosWebAPI.Models.UserInfoDTO)">
+            <summary>
+            Registers new user with the provided credentials. - /registerGoogle
+            </summary>
+            <param name="userinfodto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterGoogle.Post(Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Registers new user with the provided credentials. - /registerGoogle
+            </summary>
+            <param name="request">Models.RegisterGooglePostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterFormApp.Post(Innova.Tactil.InnovaPosWebAPI.Models.UserInfoDTO)">
+            <summary>
+            Registers new user with the provided credentials. - /registerFormApp
+            </summary>
+            <param name="userinfodto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.RegisterFormApp.Post(Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Registers new user with the provided credentials. - /registerFormApp
+            </summary>
+            <param name="request">Models.RegisterFormAppPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Register.Post(Innova.Tactil.InnovaPosWebAPI.Models.RegisterDTO)">
+            <summary>
+            Registers new user with the provided credentials. - /register
+            </summary>
+            <param name="registerdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Register.Post(Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Registers new user with the provided credentials. - /register
+            </summary>
+            <param name="request">Models.RegisterPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.LoginGestion.Post(System.String,Innova.Tactil.InnovaPosWebAPI.Models.PostLoginGestionQuery)">
+            <summary>
+            Logs user into the system - /loginGestion
+            </summary>
+            <param name="content"></param>
+            <param name="postlogingestionquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.LoginGestion.Post(Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Logs user into the system - /loginGestion
+            </summary>
+            <param name="request">Models.LoginGestionPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Login.Post(System.String,Innova.Tactil.InnovaPosWebAPI.Models.PostLoginQuery)">
+            <summary>
+            Logs user into the system - /login
+            </summary>
+            <param name="content"></param>
+            <param name="postloginquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Login.Post(Innova.Tactil.InnovaPosWebAPI.Models.LoginPostRequest)">
+            <summary>
+            Logs user into the system - /login
+            </summary>
+            <param name="request">Models.LoginPostRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.User.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetUserQuery)">
+            <summary>
+            /user
+            </summary>
+            <param name="getuserquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.User.Get(Innova.Tactil.InnovaPosWebAPI.Models.UserGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            /user
+            </summary>
+            <param name="request">Models.UserGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.SendFullStock.Post(Innova.Tactil.InnovaPosWebAPI.Models.MachineDTO,System.String)">
+            <summary>
+            Send Full Stock machine configuration - /SendFullStock
+            </summary>
+            <param name="machinedto"></param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.SendFullStock.Post(Innova.Tactil.InnovaPosWebAPI.Models.SendFullStockPostRequest)">
+            <summary>
+            Send Full Stock machine configuration - /SendFullStock
+            </summary>
+            <param name="request">Models.SendFullStockPostRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStock.Get(System.String,System.String)">
+            <summary>
+            Getmachine with stock - /machineStock
+            </summary>
+            <param name="TokenLogin">The machine id that we looking for. Data type uuid</param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStock.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineStockGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Getmachine with stock - /machineStock
+            </summary>
+            <param name="request">Models.MachineStockGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.Get(System.String)">
+            <summary>
+            Get a List with all machines in database. - /lane
+            </summary>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.Get(Innova.Tactil.InnovaPosWebAPI.Models.LaneGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all machines in database. - /lane
+            </summary>
+            <param name="request">Models.LaneGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.Post(Innova.Tactil.InnovaPosWebAPI.Models.LaneDTO,System.String)">
+            <summary>
+            Create new lane configuration - /lane
+            </summary>
+            <param name="lanedto"></param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.Post(Innova.Tactil.InnovaPosWebAPI.Models.LanePostRequest)">
+            <summary>
+            Create new lane configuration - /lane
+            </summary>
+            <param name="request">Models.LanePostRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.GetByNumberLane(System.Int32,System.String)">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{numberLane}
+            </summary>
+            <param name="numberLane">The number Lane that we looking for</param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Lane.GetByNumberLane(Innova.Tactil.InnovaPosWebAPI.Models.LaneGetByNumberLaneRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{numberLane}
+            </summary>
+            <param name="request">Models.LaneGetByNumberLaneRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MACAddress.Get(System.String)">
+            <summary>
+            Get a List with all machines in database. - /{macAddress}
+            </summary>
+            <param name="macAddress">The macAddress from machine</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MACAddress.Get(Innova.Tactil.InnovaPosWebAPI.Models.MACAddressGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all machines in database. - /{macAddress}
+            </summary>
+            <param name="request">Models.MACAddressGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Get(System.String)">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="laneId">The lane id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="request">Models.MachineLaneGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Put(Innova.Tactil.InnovaPosWebAPI.Models.LaneDTO,System.String)">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="lanedto"></param>
+            <param name="laneId">The lane id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Put(Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="request">Models.MachineLanePutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Delete(System.String)">
+            <summary>
+            Delete a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="laneId">The lane id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineLane.Delete(Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a Lane which its Id passed in parameters. - /{laneId}
+            </summary>
+            <param name="request">Models.MachineLaneDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStockContainsReference.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetMachineStockContainsReferenceQuery)">
+            <summary>
+            Get a List with all stocks machines. - /machineStockContainsReference
+            </summary>
+            <param name="getmachinestockcontainsreferencequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStockContainsReference.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsReferenceGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all stocks machines. - /machineStockContainsReference
+            </summary>
+            <param name="request">Models.MachineStockContainsReferenceGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStockContainsName.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetMachineStockContainsNameQuery)">
+            <summary>
+            Get a List with all stocks machines. - /machineStockContainsName
+            </summary>
+            <param name="getmachinestockcontainsnamequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineStockContainsName.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsNameGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all stocks machines. - /machineStockContainsName
+            </summary>
+            <param name="request">Models.MachineStockContainsNameGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Stock.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetStockQuery)">
+            <summary>
+            Get a List with all stocks machines. - /stock
+            </summary>
+            <param name="getstockquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Stock.Get(Innova.Tactil.InnovaPosWebAPI.Models.StockGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all stocks machines. - /stock
+            </summary>
+            <param name="request">Models.StockGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineName.Get(System.String)">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{machineName}
+            </summary>
+            <param name="machineName">The Name of machine.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineName.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineNameGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{machineName}
+            </summary>
+            <param name="request">Models.MachineNameGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineNameContains.Get(System.String)">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{machineName}
+            </summary>
+            <param name="machineName">The Name of machine.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineNameContains.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineNameContainsGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{machineName}
+            </summary>
+            <param name="request">Models.MachineNameContainsGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineReferenceContains.Get(System.String)">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{reference}
+            </summary>
+            <param name="reference">The Name of machine.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineReferenceContains.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineReferenceContainsGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Machine which its Name passed in parameters. - /{reference}
+            </summary>
+            <param name="request">Models.MachineReferenceContainsGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetMachineQuery)">
+            <summary>
+            Get a List with all machines in database. - /machine
+            </summary>
+            <param name="getmachinequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all machines in database. - /machine
+            </summary>
+            <param name="request">Models.MachineGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Post(Innova.Tactil.InnovaPosWebAPI.Models.MachineDTO)">
+            <summary>
+            Create a new machine. - /machine
+            </summary>
+            <param name="machinedto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Post(Innova.Tactil.InnovaPosWebAPI.Models.MachinePostRequest)">
+            <summary>
+            Create a new machine. - /machine
+            </summary>
+            <param name="request">Models.MachinePostRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.GetByMachineId(System.String)">
+            <summary>
+            Get a Machine which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.GetByMachineId(Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByMachineIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Machine which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="request">Models.MachineGetByMachineIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Put(Innova.Tactil.InnovaPosWebAPI.Models.MachineDTO,System.String)">
+            <summary>
+            Update the machine configuration which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="machinedto"></param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Put(Innova.Tactil.InnovaPosWebAPI.Models.MachinePutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Update the machine configuration which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="request">Models.MachinePutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Delete(System.String)">
+            <summary>
+            Delete a Machine which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.Delete(Innova.Tactil.InnovaPosWebAPI.Models.MachineDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a Machine which its Id passed in parameters. - /{machineId}
+            </summary>
+            <param name="request">Models.MachineDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.GetByAdCampaignId(System.String,System.String)">
+            <summary>
+            Get a AdCampaign which its Id passed in parameters if this machine constains the adCampaign - /{adCampaignId}
+            </summary>
+            <param name="adCampaignId"></param>
+            <param name="machineId">The machine id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Machine.GetByAdCampaignId(Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByAdCampaignIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a AdCampaign which its Id passed in parameters if this machine constains the adCampaign - /{adCampaignId}
+            </summary>
+            <param name="request">Models.MachineGetByAdCampaignIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProductInnovaCode.Get(System.String)">
+            <summary>
+            Get a Product which its Name passed in parameters. - /{productInnovaCode}
+            </summary>
+            <param name="productInnovaCode">The innovaCode is internal code Id of the product in Innova.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProductInnovaCode.Get(Innova.Tactil.InnovaPosWebAPI.Models.ProductInnovaCodeGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Product which its Name passed in parameters. - /{productInnovaCode}
+            </summary>
+            <param name="request">Models.ProductInnovaCodeGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProductContainsFilters.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetProductContainsFiltersQuery)">
+            <summary>
+            Get a Product which its Name passed in parameters. - /productContainsFilters
+            </summary>
+            <param name="getproductcontainsfiltersquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProductContainsFilters.Get(Innova.Tactil.InnovaPosWebAPI.Models.ProductContainsFiltersGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Product which its Name passed in parameters. - /productContainsFilters
+            </summary>
+            <param name="request">Models.ProductContainsFiltersGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetProductQuery)">
+            <summary>
+            Get a List with all products in database. - /product
+            </summary>
+            <param name="getproductquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Get(Innova.Tactil.InnovaPosWebAPI.Models.ProductGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all products in database. - /product
+            </summary>
+            <param name="request">Models.ProductGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Post(Innova.Tactil.InnovaPosWebAPI.Models.ProductDTO)">
+            <summary>
+            Create new product configuration - /product
+            </summary>
+            <param name="productdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Post(Innova.Tactil.InnovaPosWebAPI.Models.ProductPostRequest)">
+            <summary>
+            Create new product configuration - /product
+            </summary>
+            <param name="request">Models.ProductPostRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.GetByProductId(System.String)">
+            <summary>
+            Get a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="productId">The product id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.GetByProductId(Innova.Tactil.InnovaPosWebAPI.Models.ProductGetByProductIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="request">Models.ProductGetByProductIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Put(Innova.Tactil.InnovaPosWebAPI.Models.ProductDTO,System.String)">
+            <summary>
+            Update a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="productdto"></param>
+            <param name="productId">The product id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Put(Innova.Tactil.InnovaPosWebAPI.Models.ProductPutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Update a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="request">Models.ProductPutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Delete(System.String)">
+            <summary>
+            Delete a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="productId">The product id that we looking for. Data type uuid</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Product.Delete(Innova.Tactil.InnovaPosWebAPI.Models.ProductDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a Product which its Id passed in parameters. - /{productId}
+            </summary>
+            <param name="request">Models.ProductDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Device.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetDeviceQuery)">
+            <summary>
+            Get a List with all devices in database. - /device
+            </summary>
+            <param name="getdevicequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Device.Get(Innova.Tactil.InnovaPosWebAPI.Models.DeviceGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all devices in database. - /device
+            </summary>
+            <param name="request">Models.DeviceGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineIdMachineId.Get(System.String)">
+            <summary>
+            Get a List of AdCampaign by id is passed in parameters. - /machineId{machineId}
+            </summary>
+            <param name="machineId">Specify with GUID format uiid machine.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MachineIdMachineId.Get(Innova.Tactil.InnovaPosWebAPI.Models.MachineIdMachineIdGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List of AdCampaign by id is passed in parameters. - /machineId{machineId}
+            </summary>
+            <param name="request">Models.MachineIdMachineIdGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Get">
+            <summary>
+            Get a List with all campaigns types. - /campaignType
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns types. - /campaignType
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Put(Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDTO)">
+            <summary>
+            Add or Update a CampaignType which its Id passed in parameters. - /campaignType
+            </summary>
+            <param name="campaigntypedto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Put(Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Add or Update a CampaignType which its Id passed in parameters. - /campaignType
+            </summary>
+            <param name="request">Models.CampaignTypePutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.GetByCampaignTypeId(System.String)">
+            <summary>
+            Get a List with all campaigns types. - /{campaignTypeId}
+            </summary>
+            <param name="campaignTypeId">Specify with GUID format uiid campaign type.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.GetByCampaignTypeId(Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetByCampaignTypeIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns types. - /{campaignTypeId}
+            </summary>
+            <param name="request">Models.CampaignTypeGetByCampaignTypeIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Delete(System.String)">
+            <summary>
+            Delete a CampaignType which its Id passed in parameters. - /{campaignTypeId}
+            </summary>
+            <param name="campaignTypeId">Specify with GUID format uiid campaign type.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignType.Delete(Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a CampaignType which its Id passed in parameters. - /{campaignTypeId}
+            </summary>
+            <param name="request">Models.CampaignTypeDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignUser.Get">
+            <summary>
+            Get a List with all campaigns users. - /CampaignUser
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.CampaignUser.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns users. - /CampaignUser
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Get">
+            <summary>
+            Get a List with all campaigns machines. - /AdCampaignMachine
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns machines. - /AdCampaignMachine
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Post(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDTO)">
+            <summary>
+            Add or Update a AdCampaignMachine which its Id passed in parameters. - /AdCampaignMachine
+            </summary>
+            <param name="adcampaignmachinedto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Post(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Add or Update a AdCampaignMachine which its Id passed in parameters. - /AdCampaignMachine
+            </summary>
+            <param name="request">Models.AdCampaignMachinePostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignIdMachineId(System.String,System.String,System.String)">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /{AdCampaignIdMachineId}
+            </summary>
+            <param name="AdCampaignIdMachineId"></param>
+            <param name="idAdCampaign">Specify with GUID format uiid campaign.</param>
+            <param name="idMachine">Specify with GUID format uiid machine.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignIdMachineId(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignIdMachineIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /{AdCampaignIdMachineId}
+            </summary>
+            <param name="request">Models.AdCampaignMachineGetByAdCampaignIdMachineIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignMachineId(System.String)">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /{AdCampaignMachineId}
+            </summary>
+            <param name="AdCampaignMachineId"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignMachineId(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignMachineIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /{AdCampaignMachineId}
+            </summary>
+            <param name="request">Models.AdCampaignMachineGetByAdCampaignMachineIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Delete(System.String)">
+            <summary>
+            Delete a AdCampaignMachine associated to campaign. - /{AdCampaignMachineId}
+            </summary>
+            <param name="AdCampaignMachineId"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.Delete(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a AdCampaignMachine associated to campaign. - /{AdCampaignMachineId}
+            </summary>
+            <param name="request">Models.AdCampaignMachineDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignsUserId(System.String,Innova.Tactil.InnovaPosWebAPI.Models.GetByAdCampaignsUserIdAdCampaignMachineQuery)">
+            <summary>
+            Get a List with all campaigns for a user. - /{adCampaignsUserId}
+            </summary>
+            <param name="adCampaignsUserId"></param>
+            <param name="getbyadcampaignsuseridadcampaignmachinequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachine.GetByAdCampaignsUserId(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns for a user. - /{adCampaignsUserId}
+            </summary>
+            <param name="request">Models.AdCampaignMachineGetByAdCampaignsUserIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetAdCampaignQuery)">
+            <summary>
+            Get a List with all campaigns associated to user. - /adCampaign
+            </summary>
+            <param name="getadcampaignquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Get(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all campaigns associated to user. - /adCampaign
+            </summary>
+            <param name="request">Models.AdCampaignGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Post(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDTO)">
+            <summary>
+            Create new campaign - /adCampaign
+            </summary>
+            <param name="adcampaigndto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Post(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Create new campaign - /adCampaign
+            </summary>
+            <param name="request">Models.AdCampaignPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.GetByAdCampaignId(System.String)">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{adCampaignId}
+            </summary>
+            <param name="adCampaignId">Specify with GUID format uiid campaign.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.GetByAdCampaignId(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetByAdCampaignIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{adCampaignId}
+            </summary>
+            <param name="request">Models.AdCampaignGetByAdCampaignIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Delete(System.String)">
+            <summary>
+            Delete a Campaign which its Id passed in parameters. - /{adCampaignId}
+            </summary>
+            <param name="adCampaignId">Specify with GUID format uiid campaign.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaign.Delete(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a Campaign which its Id passed in parameters. - /{adCampaignId}
+            </summary>
+            <param name="request">Models.AdCampaignDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachineLane.Delete(Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignMachineLaneQuery)">
+            <summary>
+            Get a multimediaElement. - /AdCampaignMachineLane
+            </summary>
+            <param name="deleteadcampaignmachinelanequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignMachineLane.Delete(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineLaneDeleteRequest)">
+            <summary>
+            Get a multimediaElement. - /AdCampaignMachineLane
+            </summary>
+            <param name="request">Models.AdCampaignMachineLaneDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Get">
+            <summary>
+            Get a multimediaElement. - /MultimediaElement
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a multimediaElement. - /MultimediaElement
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Put(Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDTO)">
+            <summary>
+            Add or Update a multimediaElement. - /MultimediaElement
+            </summary>
+            <param name="multimediaelementdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Put(Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Add or Update a multimediaElement. - /MultimediaElement
+            </summary>
+            <param name="request">Models.MultimediaElementPutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.GetByMultimediaElementId(System.String)">
+            <summary>
+            Get a List with all multimediaElement. - /{multimediaElementId}
+            </summary>
+            <param name="multimediaElementId"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.GetByMultimediaElementId(Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetByMultimediaElementIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all multimediaElement. - /{multimediaElementId}
+            </summary>
+            <param name="request">Models.MultimediaElementGetByMultimediaElementIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Delete(System.String)">
+            <summary>
+            Delete a multimediaElement which its Id passed in parameters. - /{multimediaElementId}
+            </summary>
+            <param name="multimediaElementId"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.MultimediaElement.Delete(Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDeleteRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Delete a multimediaElement which its Id passed in parameters. - /{multimediaElementId}
+            </summary>
+            <param name="request">Models.MultimediaElementDeleteRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.SendEmailToRecoverPassword.Get(System.String)">
+            <summary>
+            Send email to user for recovery password. - /SendEmailToRecoverPassword
+            </summary>
+            <param name="email">Specify with email.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.SendEmailToRecoverPassword.Get(Innova.Tactil.InnovaPosWebAPI.Models.SendEmailToRecoverPasswordGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Send email to user for recovery password. - /SendEmailToRecoverPassword
+            </summary>
+            <param name="request">Models.SendEmailToRecoverPasswordGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppMobile.Get">
+            <summary>
+            Get a List with all UserAppMobile. - /UserAppMobile
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppMobile.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all UserAppMobile. - /UserAppMobile
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Get">
+            <summary>
+            Get a List with all UserAppGestion. - /UserAppGestion
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all UserAppGestion. - /UserAppGestion
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Post(Innova.Tactil.InnovaPosWebAPI.Models.UserInfoDTO)">
+            <summary>
+            Create new campaign - /UserAppGestion
+            </summary>
+            <param name="userinfodto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Post(Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Create new campaign - /UserAppGestion
+            </summary>
+            <param name="request">Models.UserAppGestionPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.GetByUserAppGestionEmail(System.String,System.String)">
+            <summary>
+            Get a entity for a user by the mail. - /{userAppGestionEmail}
+            </summary>
+            <param name="userAppGestionEmail"></param>
+            <param name="email">Specify with email.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.GetByUserAppGestionEmail(Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetByUserAppGestionEmailRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a entity for a user by the mail. - /{userAppGestionEmail}
+            </summary>
+            <param name="request">Models.UserAppGestionGetByUserAppGestionEmailRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Delete(System.String)">
+            <summary>
+            Delete a user which its Id passed in parameters. - /{userAppGestionId}
+            </summary>
+            <param name="userAppGestionId">Specify with GUID format uiid campaign.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.UserAppGestion.Delete(Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionDeleteRequest)">
+            <summary>
+            Delete a user which its Id passed in parameters. - /{userAppGestionId}
+            </summary>
+            <param name="request">Models.UserAppGestionDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignsAsociatedMachine.Put(Innova.Tactil.InnovaPosWebAPI.Models.PutNewAdCampaignsMachineLanesDTO)">
+            <summary>
+            Save ad campaigns asociated with the lanes - /AdCampaignsAsociatedMachine
+            </summary>
+            <param name="putnewadcampaignsmachinelanesdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignsAsociatedMachine.Put(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Save ad campaigns asociated with the lanes - /AdCampaignsAsociatedMachine
+            </summary>
+            <param name="request">Models.AdCampaignsAsociatedMachinePutRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignsAsociatedMachine.Delete(Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignsAsociatedMachineQuery)">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /AdCampaignsAsociatedMachine
+            </summary>
+            <param name="deleteadcampaignsasociatedmachinequery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.AdCampaignsAsociatedMachine.Delete(Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachineDeleteRequest)">
+            <summary>
+            Get a List with all campaign machines associated to campaign. - /AdCampaignsAsociatedMachine
+            </summary>
+            <param name="request">Models.AdCampaignsAsociatedMachineDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProviderContainsFilters.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetProviderContainsFiltersQuery)">
+            <summary>
+            Get a List with all stocks machines. - /ProviderContainsFilters
+            </summary>
+            <param name="getprovidercontainsfiltersquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.ProviderContainsFilters.Get(Innova.Tactil.InnovaPosWebAPI.Models.ProviderContainsFiltersGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all stocks machines. - /ProviderContainsFilters
+            </summary>
+            <param name="request">Models.ProviderContainsFiltersGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetProviderQuery)">
+            <summary>
+            Get a List with all providers. - /Provider
+            </summary>
+            <param name="getproviderquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Get(Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all providers. - /Provider
+            </summary>
+            <param name="request">Models.ProviderGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Post(Innova.Tactil.InnovaPosWebAPI.Models.ProviderDTO)">
+            <summary>
+            Create new campaign - /Provider
+            </summary>
+            <param name="providerdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Post(Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Create new campaign - /Provider
+            </summary>
+            <param name="request">Models.ProviderPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.GetByProviderId(System.String)">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{providerId}
+            </summary>
+            <param name="providerId">Specify with GUID format uiid campaign.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.GetByProviderId(Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetByProviderIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{providerId}
+            </summary>
+            <param name="request">Models.ProviderGetByProviderIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Delete(System.String)">
+            <summary>
+            Delete a Campaign which its Id passed in parameters. - /{providerId}
+            </summary>
+            <param name="providerId">Specify with GUID format uiid campaign.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Provider.Delete(Innova.Tactil.InnovaPosWebAPI.Models.ProviderDeleteRequest)">
+            <summary>
+            Delete a Campaign which its Id passed in parameters. - /{providerId}
+            </summary>
+            <param name="request">Models.ProviderDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Get">
+            <summary>
+            Get a List with all Companies. - /Company
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Get(RAML.Api.Core.ApiRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a List with all Companies. - /Company
+            </summary>
+            <param name="request">ApiRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Post(Innova.Tactil.InnovaPosWebAPI.Models.CompanyDTO)">
+            <summary>
+            Create new Company - /Company
+            </summary>
+            <param name="companydto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Post(Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Create new Company - /Company
+            </summary>
+            <param name="request">Models.CompanyPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.GetByCompanyId(System.String)">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{companyId}
+            </summary>
+            <param name="companyId">Specify with GUID format uiid Company.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.GetByCompanyId(Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetByCompanyIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a AdCampaign by id is passed in parameters. - /{companyId}
+            </summary>
+            <param name="request">Models.CompanyGetByCompanyIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Delete(System.String)">
+            <summary>
+            Delete a Company which its Id passed in parameters. - /{companyId}
+            </summary>
+            <param name="companyId">Specify with GUID format uiid Company.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Company.Delete(Innova.Tactil.InnovaPosWebAPI.Models.CompanyDeleteRequest)">
+            <summary>
+            Delete a Company which its Id passed in parameters. - /{companyId}
+            </summary>
+            <param name="request">Models.CompanyDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.TactilStock.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetTactilStockQuery)">
+            <summary>
+            Get a MAchine Stock by this id is passed in parameters. - /Stock
+            </summary>
+            <param name="gettactilstockquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.TactilStock.Get(Innova.Tactil.InnovaPosWebAPI.Models.TactilStockGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a MAchine Stock by this id is passed in parameters. - /Stock
+            </summary>
+            <param name="request">Models.TactilStockGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.FullStock.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetFullStockQuery)">
+            <summary>
+            Get a Full Machine Stock by this id is passed in parameters. - /FullStock
+            </summary>
+            <param name="getfullstockquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.FullStock.Get(Innova.Tactil.InnovaPosWebAPI.Models.FullStockGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a Full Machine Stock by this id is passed in parameters. - /FullStock
+            </summary>
+            <param name="request">Models.FullStockGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetDistributionListQuery)">
+            <summary>
+            Get a list of distribution list - /DistributionList
+            </summary>
+            <param name="getdistributionlistquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Get(Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a list of distribution list - /DistributionList
+            </summary>
+            <param name="request">Models.DistributionListGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Post(Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDTO)">
+            <summary>
+            Create new Company - /DistributionList
+            </summary>
+            <param name="distributionlistdto"></param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Post(Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Create new Company - /DistributionList
+            </summary>
+            <param name="request">Models.DistributionListPostRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.GetByDistributionListId(System.String)">
+            <summary>
+            Get a DistributionList by id is passed in parameters. - /{distributionListId}
+            </summary>
+            <param name="distributionListId">Specify with GUID format uiid Company.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.GetByDistributionListId(Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetByDistributionListIdRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a DistributionList by id is passed in parameters. - /{distributionListId}
+            </summary>
+            <param name="request">Models.DistributionListGetByDistributionListIdRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Delete(System.String)">
+            <summary>
+            Delete a DistributionList which its Id passed in parameters. - /{distributionListId}
+            </summary>
+            <param name="distributionListId">Specify with GUID format uiid Company.</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.DistributionList.Delete(Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDeleteRequest)">
+            <summary>
+            Delete a DistributionList which its Id passed in parameters. - /{distributionListId}
+            </summary>
+            <param name="request">Models.DistributionListDeleteRequest</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Incidences.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetIncidencesQuery)">
+            <summary>
+            Get a list of incidences - /Incidences
+            </summary>
+            <param name="getincidencesquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.Incidences.Get(Innova.Tactil.InnovaPosWebAPI.Models.IncidencesGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a list of incidences - /Incidences
+            </summary>
+            <param name="request">Models.IncidencesGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.PlayList.Get(Innova.Tactil.InnovaPosWebAPI.Models.GetPlayListQuery)">
+            <summary>
+            Get a string with the names of playlist tactile videos - /PlayList
+            </summary>
+            <param name="getplaylistquery">query properties</param>
+        </member>
+        <member name="M:Innova.Tactil.InnovaPosWebAPI.PlayList.Get(Innova.Tactil.InnovaPosWebAPI.Models.PlayListGetRequest,System.Collections.Generic.IEnumerable{System.Net.Http.Formatting.MediaTypeFormatter})">
+            <summary>
+            Get a string with the names of playlist tactile videos - /PlayList
+            </summary>
+            <param name="request">Models.PlayListGetRequest</param>
+            <param name="responseFormatters">response formatters</param>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.InnovaPosWebAPIClient">
+            <summary>
+            Main class for grouping root resources. Nested resources are defined as properties. The constructor can optionally receive an URL and HttpClient instance to override the default ones.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginGestionQuery.Email">
+            <summary>
+            The user name for login
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginGestionQuery.Password">
+            <summary>
+            The password for login in clear text
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginQuery.Email">
+            <summary>
+            The user name for login
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginQuery.Password">
+            <summary>
+            The password for login in clear text
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginQuery.Token">
+            <summary>
+            The token to security App
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PostLoginQuery.RegisterType">
+            <summary>
+            type of register
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetUserQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetUserQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetMachineQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetMachineQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetStockQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetStockQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetMachineStockContainsReferenceQuery.Reference">
+            <summary>
+            Reference
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetMachineStockContainsNameQuery.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProductQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProductQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProductContainsFiltersQuery.Description">
+            <summary>
+            The innovaCode is internal code Id of the product in Innova.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProductContainsFiltersQuery.InnovaCode">
+            <summary>
+            The name of Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetDeviceQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetDeviceQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetAdCampaignQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetAdCampaignQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetByAdCampaignsUserIdAdCampaignMachineQuery.IdUser">
+            <summary>
+            Specify with GUID format uiid user.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignMachineLaneQuery.IdAdCampaign">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignMachineLaneQuery.IdMachine">
+            <summary>
+            Specify with GUID format uiid machine.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignsAsociatedMachineQuery.IdAdCampaign">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeleteAdCampaignsAsociatedMachineQuery.IdMachine">
+            <summary>
+            Specify with GUID format uiid machine.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProviderQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProviderQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProviderContainsFiltersQuery.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetProviderContainsFiltersQuery.Reference">
+            <summary>
+            Reference
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetTactilStockQuery.MachineId">
+            <summary>
+            Specify with GUID format uiid Machine.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetFullStockQuery.MachineId">
+            <summary>
+            Specify with GUID format uiid Machine.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetDistributionListQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetDistributionListQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetIncidencesQuery.Page">
+            <summary>
+            Specify the page that you want to retrieve
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetIncidencesQuery.Length">
+            <summary>
+            Specify the amount of items that will be retrieved per page
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.GetPlayListQuery.MachineId">
+            <summary>
+            Specify with GUID format uiid machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{machineId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdMachineStockUriParameters">
+            <summary>
+            Uri Parameters for resource /machineStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdMachineStockUriParameters.TokenLogin">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdMachineStockUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdMachineStockSendFullStockUriParameters">
+            <summary>
+            Uri Parameters for resource /SendFullStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdMachineStockSendFullStockUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdAdCampaignIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{adCampaignId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdAdCampaignIdUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdLaneUriParameters">
+            <summary>
+            Uri Parameters for resource /lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdLaneUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdLaneNumberLaneUriParameters">
+            <summary>
+            Uri Parameters for resource /{numberLane}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdLaneNumberLaneUriParameters.NumberLane">
+            <summary>
+            The number Lane that we looking for
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineIdLaneNumberLaneUriParameters.MachineId">
+            <summary>
+            The machine id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneLaneIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{laneId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneLaneIdUriParameters.LaneId">
+            <summary>
+            The lane id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneMACAddressMacAddressUriParameters">
+            <summary>
+            Uri Parameters for resource /{macAddress}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneMACAddressMacAddressUriParameters.MacAddress">
+            <summary>
+            The macAddress from machine
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineNameMachineNameUriParameters">
+            <summary>
+            Uri Parameters for resource /{machineName}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineNameMachineNameUriParameters.MachineName">
+            <summary>
+            The Name of machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineNameContainsMachineNameUriParameters">
+            <summary>
+            Uri Parameters for resource /{machineName}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineNameContainsMachineNameUriParameters.MachineName">
+            <summary>
+            The Name of machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineReferenceContainsReferenceUriParameters">
+            <summary>
+            Uri Parameters for resource /{reference}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineMachineReferenceContainsReferenceUriParameters.Reference">
+            <summary>
+            The Name of machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductProductIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{productId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductProductIdUriParameters.ProductId">
+            <summary>
+            The product id that we looking for. Data type uuid
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductProductInnovaCodeProductInnovaCodeUriParameters">
+            <summary>
+            Uri Parameters for resource /{productInnovaCode}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductProductInnovaCodeProductInnovaCodeUriParameters.ProductInnovaCode">
+            <summary>
+            The innovaCode is internal code Id of the product in Innova.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{adCampaignId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignIdUriParameters.AdCampaignId">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineIdMachineIdUriParameters">
+            <summary>
+            Uri Parameters for resource /machineId{machineId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineIdMachineIdUriParameters.MachineId">
+            <summary>
+            Specify with GUID format uiid machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignCampaignTypeCampaignTypeIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{campaignTypeId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignCampaignTypeCampaignTypeIdUriParameters.CampaignTypeId">
+            <summary>
+            Specify with GUID format uiid campaign type.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignMachineAdCampaignIdMachineIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{AdCampaignIdMachineId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignMachineAdCampaignIdMachineIdUriParameters.IdAdCampaign">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignMachineAdCampaignIdMachineIdUriParameters.IdMachine">
+            <summary>
+            Specify with GUID format uiid machine.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignMachineAdCampaignMachineIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{AdCampaignMachineId}
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignAdCampaignMachineAdCampaignsUserIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{adCampaignsUserId}
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementMultimediaElementIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{multimediaElementId}
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppMobileSendEmailToRecoverPasswordUriParameters">
+            <summary>
+            Uri Parameters for resource /SendEmailToRecoverPassword
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppMobileSendEmailToRecoverPasswordUriParameters.Email">
+            <summary>
+            Specify with email.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionUserAppGestionEmailUriParameters">
+            <summary>
+            Uri Parameters for resource /{userAppGestionEmail}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionUserAppGestionEmailUriParameters.Email">
+            <summary>
+            Specify with email.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionUserAppGestionIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{userAppGestionId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionUserAppGestionIdUriParameters.UserAppGestionId">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderProviderIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{providerId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderProviderIdUriParameters.ProviderId">
+            <summary>
+            Specify with GUID format uiid campaign.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyCompanyIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{companyId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyCompanyIdUriParameters.CompanyId">
+            <summary>
+            Specify with GUID format uiid Company.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDistributionListIdUriParameters">
+            <summary>
+            Uri Parameters for resource /{distributionListId}
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDistributionListIdUriParameters.DistributionListId">
+            <summary>
+            Specify with GUID format uiid Company.
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostRequest">
+            <summary>
+            Request object for method Post of class RegisterFacebook
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostRequest">
+            <summary>
+            Request object for method Post of class RegisterGoogle
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostRequest">
+            <summary>
+            Request object for method Post of class RegisterFormApp
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostRequest">
+            <summary>
+            Request object for method Post of class Register
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostRequest">
+            <summary>
+            Request object for method Post of class LoginGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LoginPostRequest">
+            <summary>
+            Request object for method Post of class Login
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginPostRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserGetRequest">
+            <summary>
+            Request object for method Get of class User
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.SendFullStockPostRequest">
+            <summary>
+            Request object for method Post of class SendFullStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.SendFullStockPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.SendFullStockPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.SendFullStockPostRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockGetRequest">
+            <summary>
+            Request object for method Get of class MachineStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetRequest">
+            <summary>
+            Request object for method Get of class Lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LanePostRequest">
+            <summary>
+            Request object for method Post of class Lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LanePostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LanePostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LanePostRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetByNumberLaneRequest">
+            <summary>
+            Request object for method GetByNumberLane of class Lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetByNumberLaneRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MACAddressGetRequest">
+            <summary>
+            Request object for method Get of class MACAddress
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MACAddressGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneGetRequest">
+            <summary>
+            Request object for method Get of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutRequest">
+            <summary>
+            Request object for method Put of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneDeleteRequest">
+            <summary>
+            Request object for method Delete of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsReferenceGetRequest">
+            <summary>
+            Request object for method Get of class MachineStockContainsReference
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsReferenceGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsNameGetRequest">
+            <summary>
+            Request object for method Get of class MachineStockContainsName
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsNameGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.StockGetRequest">
+            <summary>
+            Request object for method Get of class Stock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.StockGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameGetRequest">
+            <summary>
+            Request object for method Get of class MachineName
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameContainsGetRequest">
+            <summary>
+            Request object for method Get of class MachineNameContains
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameContainsGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineReferenceContainsGetRequest">
+            <summary>
+            Request object for method Get of class MachineReferenceContains
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineReferenceContainsGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetRequest">
+            <summary>
+            Request object for method Get of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachinePostRequest">
+            <summary>
+            Request object for method Post of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByMachineIdRequest">
+            <summary>
+            Request object for method GetByMachineId of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByMachineIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutRequest">
+            <summary>
+            Request object for method Put of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineDeleteRequest">
+            <summary>
+            Request object for method Delete of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByAdCampaignIdRequest">
+            <summary>
+            Request object for method GetByAdCampaignId of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByAdCampaignIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductInnovaCodeGetRequest">
+            <summary>
+            Request object for method Get of class ProductInnovaCode
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductInnovaCodeGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductContainsFiltersGetRequest">
+            <summary>
+            Request object for method Get of class ProductContainsFilters
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductContainsFiltersGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetRequest">
+            <summary>
+            Request object for method Get of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductPostRequest">
+            <summary>
+            Request object for method Post of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetByProductIdRequest">
+            <summary>
+            Request object for method GetByProductId of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetByProductIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutRequest">
+            <summary>
+            Request object for method Put of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductDeleteRequest">
+            <summary>
+            Request object for method Delete of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DeviceGetRequest">
+            <summary>
+            Request object for method Get of class Device
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeviceGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineIdMachineIdGetRequest">
+            <summary>
+            Request object for method Get of class MachineIdMachineId
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineIdMachineIdGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutRequest">
+            <summary>
+            Request object for method Put of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetByCampaignTypeIdRequest">
+            <summary>
+            Request object for method GetByCampaignTypeId of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetByCampaignTypeIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDeleteRequest">
+            <summary>
+            Request object for method Delete of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostRequest">
+            <summary>
+            Request object for method Post of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignIdMachineIdRequest">
+            <summary>
+            Request object for method GetByAdCampaignIdMachineId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignIdMachineIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignMachineIdRequest">
+            <summary>
+            Request object for method GetByAdCampaignMachineId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignMachineIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDeleteRequest">
+            <summary>
+            Request object for method Delete of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdRequest">
+            <summary>
+            Request object for method GetByAdCampaignsUserId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetRequest">
+            <summary>
+            Request object for method Get of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostRequest">
+            <summary>
+            Request object for method Post of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetByAdCampaignIdRequest">
+            <summary>
+            Request object for method GetByAdCampaignId of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetByAdCampaignIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDeleteRequest">
+            <summary>
+            Request object for method Delete of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineLaneDeleteRequest">
+            <summary>
+            Request object for method Delete of class AdCampaignMachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineLaneDeleteRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutRequest">
+            <summary>
+            Request object for method Put of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetByMultimediaElementIdRequest">
+            <summary>
+            Request object for method GetByMultimediaElementId of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetByMultimediaElementIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDeleteRequest">
+            <summary>
+            Request object for method Delete of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.SendEmailToRecoverPasswordGetRequest">
+            <summary>
+            Request object for method Get of class SendEmailToRecoverPassword
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.SendEmailToRecoverPasswordGetRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostRequest">
+            <summary>
+            Request object for method Post of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetByUserAppGestionEmailRequest">
+            <summary>
+            Request object for method GetByUserAppGestionEmail of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetByUserAppGestionEmailRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionDeleteRequest">
+            <summary>
+            Request object for method Delete of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutRequest">
+            <summary>
+            Request object for method Put of class AdCampaignsAsociatedMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachineDeleteRequest">
+            <summary>
+            Request object for method Delete of class AdCampaignsAsociatedMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachineDeleteRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderContainsFiltersGetRequest">
+            <summary>
+            Request object for method Get of class ProviderContainsFilters
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderContainsFiltersGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetRequest">
+            <summary>
+            Request object for method Get of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostRequest">
+            <summary>
+            Request object for method Post of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetByProviderIdRequest">
+            <summary>
+            Request object for method GetByProviderId of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetByProviderIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderDeleteRequest">
+            <summary>
+            Request object for method Delete of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostRequest">
+            <summary>
+            Request object for method Post of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetByCompanyIdRequest">
+            <summary>
+            Request object for method GetByCompanyId of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetByCompanyIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyDeleteRequest">
+            <summary>
+            Request object for method Delete of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.TactilStockGetRequest">
+            <summary>
+            Request object for method Get of class TactilStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.TactilStockGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.FullStockGetRequest">
+            <summary>
+            Request object for method Get of class FullStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.FullStockGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetRequest">
+            <summary>
+            Request object for method Get of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostRequest">
+            <summary>
+            Request object for method Post of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostRequest.Content">
+            <summary>
+            Request content
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostRequest.Formatter">
+            <summary>
+            Request formatter
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetByDistributionListIdRequest">
+            <summary>
+            Request object for method GetByDistributionListId of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetByDistributionListIdRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDeleteRequest">
+            <summary>
+            Request object for method Delete of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListDeleteRequest.UriParameters">
+            <summary>
+            Request Uri Parameters
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.IncidencesGetRequest">
+            <summary>
+            Request object for method Get of class Incidences
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.IncidencesGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.PlayListGetRequest">
+            <summary>
+            Request object for method Get of class PlayList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PlayListGetRequest.Query">
+            <summary>
+            Request query string properties
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostResponse">
+            <summary>
+            Response object for method Post of class RegisterFacebook
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFacebookPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostResponse">
+            <summary>
+            Response object for method Post of class RegisterGoogle
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterGooglePostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostResponse">
+            <summary>
+            Response object for method Post of class RegisterFormApp
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterFormAppPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostResponse">
+            <summary>
+            Response object for method Post of class Register
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.RegisterPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostResponse">
+            <summary>
+            Response object for method Post of class LoginGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LoginGestionPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserGetResponse">
+            <summary>
+            Response object for method Get of class User
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockGetResponse">
+            <summary>
+            Response object for method Get of class MachineStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetResponse">
+            <summary>
+            Response object for method Get of class Lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetByNumberLaneResponse">
+            <summary>
+            Response object for method GetByNumberLane of class Lane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.LaneGetByNumberLaneResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MACAddressGetResponse">
+            <summary>
+            Response object for method Get of class MACAddress
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MACAddressGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneGetResponse">
+            <summary>
+            Response object for method Get of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutResponse">
+            <summary>
+            Response object for method Put of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLanePutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneDeleteResponse">
+            <summary>
+            Response object for method Delete of class MachineLane
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineLaneDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsReferenceGetResponse">
+            <summary>
+            Response object for method Get of class MachineStockContainsReference
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsReferenceGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsNameGetResponse">
+            <summary>
+            Response object for method Get of class MachineStockContainsName
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineStockContainsNameGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.StockGetResponse">
+            <summary>
+            Response object for method Get of class Stock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.StockGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameGetResponse">
+            <summary>
+            Response object for method Get of class MachineName
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameContainsGetResponse">
+            <summary>
+            Response object for method Get of class MachineNameContains
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineNameContainsGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineReferenceContainsGetResponse">
+            <summary>
+            Response object for method Get of class MachineReferenceContains
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineReferenceContainsGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetResponse">
+            <summary>
+            Response object for method Get of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByMachineIdResponse">
+            <summary>
+            Response object for method GetByMachineId of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByMachineIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutResponse">
+            <summary>
+            Response object for method Put of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachinePutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineDeleteResponse">
+            <summary>
+            Response object for method Delete of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByAdCampaignIdResponse">
+            <summary>
+            Response object for method GetByAdCampaignId of class Machine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineGetByAdCampaignIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductInnovaCodeGetResponse">
+            <summary>
+            Response object for method Get of class ProductInnovaCode
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductInnovaCodeGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductContainsFiltersGetResponse">
+            <summary>
+            Response object for method Get of class ProductContainsFilters
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductContainsFiltersGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetResponse">
+            <summary>
+            Response object for method Get of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetByProductIdResponse">
+            <summary>
+            Response object for method GetByProductId of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductGetByProductIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutResponse">
+            <summary>
+            Response object for method Put of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductPutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProductDeleteResponse">
+            <summary>
+            Response object for method Delete of class Product
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProductDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DeviceGetResponse">
+            <summary>
+            Response object for method Get of class Device
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DeviceGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MachineIdMachineIdGetResponse">
+            <summary>
+            Response object for method Get of class MachineIdMachineId
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MachineIdMachineIdGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetResponse">
+            <summary>
+            Response object for method Get of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutResponse">
+            <summary>
+            Response object for method Put of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypePutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetByCampaignTypeIdResponse">
+            <summary>
+            Response object for method GetByCampaignTypeId of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeGetByCampaignTypeIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDeleteResponse">
+            <summary>
+            Response object for method Delete of class CampaignType
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignTypeDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CampaignUserGetResponse">
+            <summary>
+            Response object for method Get of class CampaignUser
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CampaignUserGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetResponse">
+            <summary>
+            Response object for method Get of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostResponse">
+            <summary>
+            Response object for method Post of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachinePostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignIdMachineIdResponse">
+            <summary>
+            Response object for method GetByAdCampaignIdMachineId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignIdMachineIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignMachineIdResponse">
+            <summary>
+            Response object for method GetByAdCampaignMachineId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignMachineIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDeleteResponse">
+            <summary>
+            Response object for method Delete of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdResponse">
+            <summary>
+            Response object for method GetByAdCampaignsUserId of class AdCampaignMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignMachineGetByAdCampaignsUserIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetResponse">
+            <summary>
+            Response object for method Get of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostResponse">
+            <summary>
+            Response object for method Post of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetByAdCampaignIdResponse">
+            <summary>
+            Response object for method GetByAdCampaignId of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignGetByAdCampaignIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDeleteResponse">
+            <summary>
+            Response object for method Delete of class AdCampaign
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetResponse">
+            <summary>
+            Response object for method Get of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutResponse">
+            <summary>
+            Response object for method Put of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementPutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetByMultimediaElementIdResponse">
+            <summary>
+            Response object for method GetByMultimediaElementId of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementGetByMultimediaElementIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDeleteResponse">
+            <summary>
+            Response object for method Delete of class MultimediaElement
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.MultimediaElementDeleteResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.SendEmailToRecoverPasswordGetResponse">
+            <summary>
+            Response object for method Get of class SendEmailToRecoverPassword
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.SendEmailToRecoverPasswordGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppMobileGetResponse">
+            <summary>
+            Response object for method Get of class UserAppMobile
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppMobileGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetResponse">
+            <summary>
+            Response object for method Get of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostResponse">
+            <summary>
+            Response object for method Post of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetByUserAppGestionEmailResponse">
+            <summary>
+            Response object for method GetByUserAppGestionEmail of class UserAppGestion
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.UserAppGestionGetByUserAppGestionEmailResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutResponse">
+            <summary>
+            Response object for method Put of class AdCampaignsAsociatedMachine
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.AdCampaignsAsociatedMachinePutResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderContainsFiltersGetResponse">
+            <summary>
+            Response object for method Get of class ProviderContainsFilters
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderContainsFiltersGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetResponse">
+            <summary>
+            Response object for method Get of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostResponse">
+            <summary>
+            Response object for method Post of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetByProviderIdResponse">
+            <summary>
+            Response object for method GetByProviderId of class Provider
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.ProviderGetByProviderIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetResponse">
+            <summary>
+            Response object for method Get of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostResponse">
+            <summary>
+            Response object for method Post of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetByCompanyIdResponse">
+            <summary>
+            Response object for method GetByCompanyId of class Company
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.CompanyGetByCompanyIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.TactilStockGetResponse">
+            <summary>
+            Response object for method Get of class TactilStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.TactilStockGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.FullStockGetResponse">
+            <summary>
+            Response object for method Get of class FullStock
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.FullStockGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetResponse">
+            <summary>
+            Response object for method Get of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostResponse">
+            <summary>
+            Response object for method Post of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListPostResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetByDistributionListIdResponse">
+            <summary>
+            Response object for method GetByDistributionListId of class DistributionList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.DistributionListGetByDistributionListIdResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.IncidencesGetResponse">
+            <summary>
+            Response object for method Get of class Incidences
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.IncidencesGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.InnovaPosWebAPI.Models.PlayListGetResponse">
+            <summary>
+            Response object for method Get of class PlayList
+            </summary>
+        </member>
+        <member name="P:Innova.Tactil.InnovaPosWebAPI.Models.PlayListGetResponse.Content">
+            <summary>
+            Typed Response content
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Controllers.HomeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.Index">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.StartBuy">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.GetPartialOpenProduct(Innova.Tactil.InnovaPosWebAPI.Models.ProductDTO)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.BuyProduct(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="idProduct"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.FinallyScreen">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Controllers.HomeController.GetMACAddress">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Innova.Tactil.MvcApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.MvcApplication.Application_Start">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Mappers.StockMachineDataMapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapStockMachineDataDTO(Innova.Tactil.Models.StockMachineDataDTO)">
+            <summary>
+            
+            </summary>
+            <param name="stockMachineDataDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapMachineDto(Innova.Tactil.Models.MachineDTO)">
+            <summary>
+            
+            </summary>
+            <param name="machineDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapLaneDto(Innova.Tactil.Models.LaneDTO)">
+            <summary>
+            
+            </summary>
+            <param name="laneDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapLanesDto(System.Collections.Generic.List{Innova.Tactil.Models.LaneDTO})">
+            <summary>
+            
+            </summary>
+            <param name="lanesDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapAdCampaignMachineLanes(System.Collections.Generic.List{Innova.Tactil.Models.AdCampaignMachineLaneDTO})">
+            <summary>
+            
+            </summary>
+            <param name="adCampaignMachines"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapAdCampaignMachineLane(Innova.Tactil.Models.AdCampaignMachineLaneDTO)">
+            <summary>
+            
+            </summary>
+            <param name="adCampaignMachine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Mappers.StockMachineDataMapper.MapProductDto(Innova.Tactil.Models.ProductDTO)">
+            <summary>
+            
+            </summary>
+            <param name="productDto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Innova.Tactil.Models.StockMachineDataDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Models.MachineDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Models.LaneDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Models.StockProductDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Models.ProductDTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Innova.Tactil.Repositories.ApiInnovaRepsository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.Repositories.ApiInnovaRepsository.GetStockMachine(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="idmachine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Repositories.ApiInnovaRepsository.GetFullStockMachine(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="idmachine"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Innova.Tactil.Repositories.ApiInnovaRepsository.GetMachineLanes(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="MacAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Innova.Tactil.Repositories.XMLRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Innova.Tactil.Repositories.XMLRepository.CreateXMLfileFromStockDataBase(Innova.Tactil.InnovaPosWebAPI.Models.StockMachineDataDTO)">
+            <summary>
+            
+            </summary>
+            <param name="FullStockMachine"></param>
+        </member>
+        <member name="M:Innova.Tactil.Repositories.XMLRepository.GetStockMachineDataFromXML(System.String)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
